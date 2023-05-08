@@ -1,0 +1,13 @@
+ls
+-> bandit20-do
+./bandit20-do
+-> Run a command as another user.
+  Example: ./bandit20-do id
+./bandit20-do id
+-> uid=11019(bandit19) gid=11019(bandit19) euid=11020(bandit20) groups=11019(bandit19)
+./bandit20-do ls
+-> bandit20-do
+./bandit20-do cat /etc/bandit_pass/bandit20
+-> VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+NvEJF7oVjkddltPSrdKEFOllh9V1IBcq

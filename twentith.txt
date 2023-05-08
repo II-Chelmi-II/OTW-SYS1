@@ -1,0 +1,14 @@
+Two terminals needed 
+
+On the second terminal :
+nc -lvp <four digits number>
+-> Listening on 0.0.0.0 <the four digits number>
+
+On the first terminal : 
+./suconnect 2222 then "Connection received on localhost 46940" appears on the second terminal
+you'll need to cmd+C the bandit20 password after that 
+-> NvEJF7oVjkddltPSrdKEFOllh9V1IBcq -> bandit21 password
+
+Finally on the first terminal will appear 
+-> Read: VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+Password matches, sending next password

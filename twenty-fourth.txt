@@ -1,0 +1,5 @@
+mkdir /tmp/<directory name>
+cd /tmp/<the directory name>
+vim <name>.sh
+chmod <the name>.sh
+-> uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG

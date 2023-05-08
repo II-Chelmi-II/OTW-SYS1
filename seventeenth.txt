@@ -1,0 +1,5 @@
+diff passwords.old passwords.new
+-> 42c42
+< glZreTEH1V3cGKL6g4conYqZqaEj0mte
+---
+> hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg -> password for bandit18

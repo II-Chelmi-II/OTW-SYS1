@@ -1,0 +1,6 @@
+cat data.txt | grep -oP '(?<==)[A-Za-z0-9]+' | head -1
+-> grep: (standard input): binary file matches
+file data.txt
+-> data.txt: data
+strings data.txt | grep "="
+-> G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s

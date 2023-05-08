@@ -1,0 +1,2 @@
+find inhere -type f -size 1033c -not -executable -exec file {} + | grep "ASCII" | cut -d: -f1 | xargs cat
+-> P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
